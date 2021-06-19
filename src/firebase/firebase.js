@@ -11,10 +11,8 @@ const firebaseConfig = {
     measurementId: "G-JM87SWMXXG"
   };
 
-  firebase.initializeApp(firebaseConfig)
+firebase.initializeApp(firebaseConfig)
 
-  firebase.database().ref().set({
-      name: 'Michael Archer'
-  })
+const database = firebase.database()
 
-export default firebase
+export default database
