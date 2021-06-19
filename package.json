@@ -7,7 +7,8 @@
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack serve"
+    "dev-server": "webpack serve",
+    "start": "node server/server.js"
   },
   "dependencies": {
     "@babel/core": "^7.14.2",
@@ -16,10 +17,13 @@
     "babel-cli": "^6.18.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.4",
+    "express": "^4.17.1",
+    "firebase": "^8.6.7",
     "live-server": "^1.2.1",
     "moment": "^2.29.1",
     "node-sass": "^6.0.0",
     "normalize.css": "^8.0.1",
+    "numeral": "^2.0.6",
     "react": "^17.0.2",
     "react-dates": "^21.8.0",
     "react-dom": "^17.0.2",
